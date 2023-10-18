@@ -55,7 +55,7 @@
                                                 <a href="{{ route('edit.portfolio', $item->id) }}" class="btn btn-info sm"
                                                     title="Edit Data"> <i class="fas fa-edit"></i> </a>
 
-                                                <a href="{{ route('delete.mult.image', $item->id) }}"
+                                                <a href="{{ route('delete.portfolio', $item->id) }}"
                                                     class="btn btn-danger sm" title="Delete Data" id="delete"> <i
                                                         class="fas fa-trash-alt"></i> </a>
                                             </td>

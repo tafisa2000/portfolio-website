@@ -71,6 +71,10 @@ Route :: middleware('auth')->group(function(){
         Route::get('/add/portifolio','AddPortfolio')->name('add.portifolio');
         Route::post('/store/portifolio','StorePortfolio')->name('store.portfolio');
         Route::get('/edit/portifolio/{id}','EditPortfolio')->name('edit.portfolio');
+        Route::post('/update/portifolio','UpdatePortfolio')->name('update.portfolio');
+        Route::get('/delete/portifolio/{id}','DeletePortfolio')->name('delete.portfolio');
+        Route::get('/portfolio/details/{id}','PortfolioDetails')->name('portfolio.details');
+
        
 
     });
